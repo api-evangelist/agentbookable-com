@@ -66,7 +66,7 @@
 
 Agentbookable provides a booking layer that connects AI assistants with existing business scheduling systems. It enables AI-driven customers to discover businesses, check live availability, and book appointments directly through calendars like Cal.com, Calendly, Google Calendar, and others. The platform acts as a secure intermediary, requiring user consent before finalizing bookings, and supports a range of services without replacing existing software. By integrating with popular booking tools, Agentbookable helps businesses become bookable by AI without complex setup.
 
-**Areas:** Booking · AI · Scheduling · Integration · Automation · Company
+**Areas:** Booking · Artificial Intelligence · Scheduling · Integration · Automation · Company
 
 ## Agentbookable on APIs.io
 
@@ -84,22 +84,30 @@ Everything profiled for Agentbookable is published on APIs.io rather than in thi
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentbookable-com-mcp.yml](https://apis.io/servers/agentbookable-com/agentbookable-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Agentbookable Com Agentic Access](https://apis.io/agentic-access/agentbookable-com/agentbookable-com-agentic-access/)
+- [Agentbookable Agentic Access](https://apis.io/agentic-access/agentbookable-com/agentbookable-com-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (8)
 
 The data models the API reads and writes.
 
+- [AvailabilityResult](https://apis.io/schemas/agentbookable-com/agentbookable-com-availability-result/)
 - [Booking](https://apis.io/schemas/agentbookable-com/agentbookable-com-booking/)
 - [BookingCreate](https://apis.io/schemas/agentbookable-com/agentbookable-com-booking-create/)
 - [BookingDraft](https://apis.io/schemas/agentbookable-com/agentbookable-com-booking-draft/)
 - [Business](https://apis.io/schemas/agentbookable-com/agentbookable-com-business/)
 - [ConsentCreate](https://apis.io/schemas/agentbookable-com/agentbookable-com-consent-create/)
 - [MandateCreate](https://apis.io/schemas/agentbookable-com/agentbookable-com-mandate-create/)
+- [Service](https://apis.io/schemas/agentbookable-com/agentbookable-com-service/)
 
 #### JSON-LD (1)
 
@@ -117,8 +125,8 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentbookable Com Authentication](https://apis.io/security/agentbookable-com/agentbookable-com-authentication/)
-- [Agentbookable Com Domain Security](https://apis.io/security/agentbookable-com/agentbookable-com-domain-security/)
+- [Agentbookable Authentication](https://apis.io/security/agentbookable-com/agentbookable-com-authentication/)
+- [Agentbookable Domain Security](https://apis.io/security/agentbookable-com/agentbookable-com-domain-security/)
 
 ## Where to find this API
 
@@ -134,23 +142,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 46.6** — developing · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 41.4** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 59.5 |
-| Contract governance | 79.1 |
+| Discoverability | 71.7 |
+| Contract quality | 62.6 |
+| Contract governance | 22.0 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 51.7 |
-| Access clarity | 21.1 |
+| Access clarity | 29.8 |
 
-**Agent readiness 46.5** — agent-native
+**Agent readiness 41.5** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | bearer (partial credit) |
@@ -170,8 +178,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | — |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentbookable-com/](https://apis.io/providers/agentbookable-com/).
 
